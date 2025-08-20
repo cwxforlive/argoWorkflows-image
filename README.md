@@ -23,14 +23,18 @@ Argo is a Cloud Native Computing Foundation (CNCF) graduated project.
 
 **Core Features:**
 
+1. Deeply integrated with K8s, each workflow step runs as a Pod.
+2. Define workflows using YAML files, which are easy to version control, share, and reuse.
+3. Workflows support parameterization, and tasks can be configured with timeouts and retry strategies to enhance fault tolerance.
+4. Provides a Web UI for visual monitoring of workflow status and logs.
+5. Supports setting resource requests and limits such as CPU and memory for tasks, and supports resource limits at the workflow level.
 
-
-This project offers pre-configured [**Chroma embbdings**](https://marketplace.huaweicloud.com/contents/992480da-64a3-4ba8-90cb-686d1832e96a#productid=OFFI1111485128289529856) images with Chroma and its runtime environment pre-installed, along with deployment templates. Follow the guide to enjoy an "out-of-the-box" experience.
+This project offers pre-configured [**Argo Workflows**](https://marketplace.huaweicloud.com/contents/992480da-64a3-4ba8-90cb-686d1832e96a#productid=OFFI1111485128289529856) images with Chroma and its runtime environment pre-installed, along with deployment templates. Follow the guide to enjoy an "out-of-the-box" experience.
 
 > **System Requirements:**
 > - CPU: 2GHz or higher  
 > - RAM: 4GB or more  
-> - Disk: At least 40GB  
+> - Disk: At least 50GB  
 
 
 ## Prerequisites  
@@ -40,7 +44,7 @@ This project offers pre-configured [**Chroma embbdings**](https://marketplace.hu
 
 | Image Version                                                                                                            | Description | Notes |  
 |--------------------------------------------------------------------------------------------------------------------------|-------------|-------|  
-| [Chroma-1.0.16-kunpeng](https://github.com/HuaweiCloudDeveloper/chroma-image/tree/Chroma-1.0.16-kunpeng)                    | Deployed on Kunpeng servers with Huawei Cloud EulerOS 2.0 64bit |  | 
+| [ArgoWorkflows-3.7.1-kunpeng](https://github.com/HuaweiCloudDeveloper/argoWorkflows-image/tree/ArgoWorkflows-3.7.1-kunpeng)                    | Deployed on Kunpeng servers with Huawei Cloud EulerOS 2.0 64bit |  | 
 
 
 ## Getting Help
